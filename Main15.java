@@ -9,10 +9,9 @@ public class Main15 {
 		// А, элементами которого являются числа, сумма цифр которых равна К и которые не
 		// большее N.
 
-		String message = " Введите число K ";
-		int k = readIntFromConsole(message);
-		String message1 = " Введите число N ";
-		int n = readIntFromConsole(message1);
+		String message = " Введите число K   от 1 до 18  ";           // (9+9=18),  9+8=17
+		int k = readIntFromConsole(message);                          //  K - можно задать фиксировано, без консольного ввода
+		int n = 99;   		                                      //  N - влияет на длину массива
 		int length = countNumbers(k, n);
 		int[] arr = new int[length];
 		arr = fillArray(arr, k, n);
