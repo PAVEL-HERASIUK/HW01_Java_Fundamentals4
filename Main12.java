@@ -11,7 +11,6 @@ public class Main12 {
 		int y;
 		int z;
 		int t;
-		double с;
 		double s;
 		x = entreNum(" Сторона X = ");
 		y = entreNum(" Сторона Y = ");
