@@ -10,9 +10,9 @@ public class Main11 {
 		// D[4] + D[5]; D[4] +D[5] +D[6].
 		// Пояснение. Составить метод(методы) для вычисления суммы трех последовательно
 		// расположенных элементов массива с номерами от k до m.
-		int a;
-		a = entreNum(" Укажите длинну массива ");
-		int[] mas = lengthMas(a);
+		//int a; не используется
+		//a = entreNum(" Укажите длинну массива ");  длина массива известна по условию --->6(если вводишь другое число то ошибка)
+		int[] mas = lengthMas(6);
 		randomMasElement(mas);
 		printMas(mas);
 
@@ -34,26 +34,22 @@ public class Main11 {
 		}
 		return sum;
 	}
-
-	public static int entreNum(String mesage) {
+	/*public static int entreNum(String mesage) {    // не используется блок кода
 		int value;
-
 		@SuppressWarnings(" resource ")
 		Scanner sc = new Scanner(System.in);
 		System.out.println(mesage);
-
 		while (!sc.hasNextInt()) {
 			sc.nextInt();
 			System.out.println(mesage);
 		}
-
 		value = sc.nextInt();
 		return value;
 	}
-
+        */
 	public static int[] lengthMas(int a) {
-		int[] mas = new int[a];
-		return mas;
+		
+		return  new int[a];
 	}
 
 	public static void randomMasElement(int[] mas) {
