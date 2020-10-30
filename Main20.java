@@ -1,6 +1,6 @@
 package by.htp.les04.main;
 
-public class Main20 {
+public class Main20 {//  бесконечный цикл исправить надо
 
 	public static void main(String[] args) {
 		// 20. Из заданного числа вычли сумму его цифр. Из результата вновь вычли сумму
