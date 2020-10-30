@@ -1,8 +1,8 @@
 package by.htp.les04.main;
 
-public class Main19 {
+public class Main19 {       //return --> не может вернуть void поэтому--> int   но далее класс Main уже не запускается 
 
-	public static long main(String[] args) {
+	public static long main(String[] args) { 
 		// 19. Написать программу, определяющую сумму n - значных чисел, содержащих
 		// только
 		// нечетные цифры. Определить также, сколько четных цифр в найденной сумме. Для
